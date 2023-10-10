@@ -1,0 +1,2 @@
+*** Variables ***
+${TIMEOUT}        60

@@ -1,0 +1,24 @@
+{
+    "robot.loadVariablesFromArgumentsFile": "${workspaceFolder}/arguments.ini",
+    "robot.variables": {
+        "EXECDIR":"${workspaceFolder}",
+    },
+    "robot.codeLens.enable": true,
+    "robot.lint.robocop.enabled": false,
+    "launch": {
+        "configurations": [
+            {
+                "type": "robotframework-lsp",
+                "name": "Robot Framework: Launch template",
+                "request": "launch",
+                "cwd": "${workspaceFolder}",
+                "target": "${file}",
+                "terminal": "integrated",
+                "args": ["--argumentfile", "${workspaceFolder}/arguments.ini"]
+            }
+        ],
+    },
+    "files.autoSave": "onFocusChange",
+    "robot.codeFormatter": "robotidy",
+    "robot.completions.keywords.format": "Title Case"
+}

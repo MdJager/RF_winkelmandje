@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.8.2 on win32)" generated="20220510 16:44:21.377" rpa="false" schemaversion="2">
+<suite id="s1" name="Nop.Commerce.Test.Robot" source="C:\Users\hugom\git\Nop.Commerce.Test.Robot">
+<suite id="s1-s1" name="Webshopsz" source="C:\Users\hugom\git\Nop.Commerce.Test.Robot\webshopsz">
+<suite id="s1-s1-s1" name="Testsuites" source="C:\Users\hugom\git\Nop.Commerce.Test.Robot\webshopsz\testsuites">
+<suite id="s1-s1-s1-s1" name="Visit" source="C:\Users\hugom\git\Nop.Commerce.Test.Robot\webshopsz\testsuites\visit">
+<suite id="s1-s1-s1-s1-s1" name="Account" source="C:\Users\hugom\git\Nop.Commerce.Test.Robot\webshopsz\testsuites\visit\account">
+<suite id="s1-s1-s1-s1-s1-s1" name="Bestellen" source="C:\Users\hugom\git\Nop.Commerce.Test.Robot\webshopsz\testsuites\visit\account\bestellen.robot">
+<test id="s1-s1-s1-s1-s1-s1-t1" name="Macbook bestellen">
+<kw name="Navigate To The Webshop" library="selenium">
+<doc>Opens a browser to the shop url</doc>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${SHOP_URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220510 16:44:22.005" level="INFO">Opening browser 'chrome' to base url 'https://devnopcommerce.azurewebsites.net/'.</msg>
+<status status="PASS" starttime="20220510 16:44:22.003" endtime="20220510 16:44:23.776"/>
+</kw>
+<kw name="Set Selenium Timeout" library="SeleniumLibrary">
+<arg>${timeout}</arg>
+<doc>Sets the timeout that is used by various keywords.</doc>
+<status status="PASS" starttime="20220510 16:44:23.776" endtime="20220510 16:44:23.778"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>css:button#eu-cookie-ok</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:23.779" level="INFO">Clicking element 'css:button#eu-cookie-ok'.</msg>
+<status status="PASS" starttime="20220510 16:44:23.778" endtime="20220510 16:44:23.832"/>
+</kw>
+<kw name="Set Window Size" library="SeleniumLibrary">
+<arg>1920</arg>
+<arg>1080</arg>
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<status status="PASS" starttime="20220510 16:44:23.834" endtime="20220510 16:44:23.958"/>
+</kw>
+<status status="PASS" starttime="20220510 16:44:22.003" endtime="20220510 16:44:23.958"/>
+</kw>
+<kw name="Add Item To Cart" library="account">
+<arg>Apple MacBook Pro 13-inch</arg>
+<kw name="Wait Until Element Is Enabled" library="SeleniumLibrary">
+<arg>xpath://h2/a[contains(.,"${item}")]</arg>
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<status status="PASS" starttime="20220510 16:44:23.961" endtime="20220510 16:44:23.991"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://h2/a[contains(.,"${item}")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:23.992" level="INFO">Clicking element 'xpath://h2/a[contains(.,"Apple MacBook Pro 13-inch")]'.</msg>
+<status status="PASS" starttime="20220510 16:44:23.992" endtime="20220510 16:44:24.867"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>xpath://h1[(contains(., "${item}"))]</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20220510 16:44:24.869" endtime="20220510 16:44:24.891"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath://button[contains(., "Bestel nu!")]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220510 16:44:24.892" endtime="20220510 16:44:24.914"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="product_enteredQuantity_4"]</arg>
+<arg>-2</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:24.916" level="INFO">Typing text '-2' into text field '//*[@id="product_enteredQuantity_4"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:24.915" endtime="20220510 16:44:24.984"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://button[contains(., "Bestel nu!")]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:24.985" level="INFO">Clicking element 'xpath://button[contains(., "Bestel nu!")]'.</msg>
+<status status="PASS" starttime="20220510 16:44:24.984" endtime="20220510 16:44:25.023"/>
+</kw>
+<kw name="Product Is Added To Cart" library="account">
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath://div[@class="bar-notification success"]</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20220510 16:44:25.025" endtime="20220510 16:44:25.494"/>
+</kw>
+<kw name="Element Text Should Be" library="SeleniumLibrary">
+<arg>xpath://div[@class="bar-notification success"]</arg>
+<arg>Het product is toegevoegd aan uw winkelwagen</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<msg timestamp="20220510 16:44:25.496" level="INFO">Verifying element 'xpath://div[@class="bar-notification success"]' contains exact text 'Het product is toegevoegd aan uw winkelwagen'.</msg>
+<status status="PASS" starttime="20220510 16:44:25.495" endtime="20220510 16:44:25.521"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<arg>xpath://div[@class="bar-notification success"]</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" starttime="20220510 16:44:25.521" endtime="20220510 16:44:29.544"/>
+</kw>
+<status status="PASS" starttime="20220510 16:44:25.024" endtime="20220510 16:44:29.544"/>
+</kw>
+<status status="PASS" starttime="20220510 16:44:23.960" endtime="20220510 16:44:29.544"/>
+</kw>
+<kw name="Navigate To Shopping Cart" library="shopping_cart">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@class="cart-label"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:29.546" level="INFO">Clicking element '//*[@class="cart-label"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:29.545" endtime="20220510 16:44:30.138"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>//h1[contains(.,"Winkelwagen")]</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20220510 16:44:30.138" endtime="20220510 16:44:30.148"/>
+</kw>
+<status status="PASS" starttime="20220510 16:44:29.545" endtime="20220510 16:44:30.148"/>
+</kw>
+<kw name="Agree To Conditions and Checkout" library="shopping_cart">
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="termsofservice"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:30.150" level="INFO">Clicking element '//*[@id="termsofservice"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:30.149" endtime="20220510 16:44:30.199"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@id="checkout"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:30.200" level="INFO">Clicking element '//*[@id="checkout"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:30.199" endtime="20220510 16:44:30.723"/>
+</kw>
+<status status="PASS" starttime="20220510 16:44:30.149" endtime="20220510 16:44:30.724"/>
+</kw>
+<kw name="Select Guest Logout" library="shopping_cart">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${guestCheckoutButton}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20220510 16:44:30.726" endtime="20220510 16:44:30.735"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${guestCheckoutButton}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:30.737" level="INFO">Clicking element '//button[@class="button-1 checkout-as-guest-button"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:30.736" endtime="20220510 16:44:31.393"/>
+</kw>
+<status status="PASS" starttime="20220510 16:44:30.725" endtime="20220510 16:44:31.393"/>
+</kw>
+<kw name="Enter Guest Customer Information" library="shopping_cart">
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_FirstName"]</arg>
+<arg>${new_account}[firstname]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:31.395" level="INFO">Typing text 'Johnny' into text field '//*[@id="BillingNewAddress_FirstName"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:31.394" endtime="20220510 16:44:31.480"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_LastName"]</arg>
+<arg>${new_account}[lastname]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:31.481" level="INFO">Typing text 'Fabulous' into text field '//*[@id="BillingNewAddress_LastName"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:31.480" endtime="20220510 16:44:31.556"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_Email"]</arg>
+<arg>${new_account}[email]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:31.557" level="INFO">Typing text 'johnny@fab.fr' into text field '//*[@id="BillingNewAddress_Email"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:31.557" endtime="20220510 16:44:31.630"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_CountryId"]</arg>
+<arg>158</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20220510 16:44:31.631" level="INFO">Selecting options from selection list '//*[@id="BillingNewAddress_CountryId"]' by value 158.</msg>
+<status status="PASS" starttime="20220510 16:44:31.630" endtime="20220510 16:44:31.680"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>//option[@value="1197"]</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20220510 16:44:31.681" endtime="20220510 16:44:31.914"/>
+</kw>
+<kw name="Select From List By Value" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_StateProvinceId"]</arg>
+<arg>1197</arg>
+<doc>Selects options from selection list ``locator`` by ``values``.</doc>
+<msg timestamp="20220510 16:44:31.916" level="INFO">Selecting options from selection list '//*[@id="BillingNewAddress_StateProvinceId"]' by value 1197.</msg>
+<status status="PASS" starttime="20220510 16:44:31.915" endtime="20220510 16:44:31.978"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_City"]</arg>
+<arg>${new_account}[city]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:31.980" level="INFO">Typing text 'Den Haag' into text field '//*[@id="BillingNewAddress_City"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:31.979" endtime="20220510 16:44:32.051"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_Address1"]</arg>
+<arg>${new_account}[streetaddress]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:32.053" level="INFO">Typing text 'waterway 8' into text field '//*[@id="BillingNewAddress_Address1"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:32.051" endtime="20220510 16:44:32.129"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_ZipPostalCode"]</arg>
+<arg>${new_account}[zip_postal_code]</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:32.129" level="INFO">Typing text '1234 AB' into text field '//*[@id="BillingNewAddress_ZipPostalCode"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:32.129" endtime="20220510 16:44:32.200"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>//*[@id="BillingNewAddress_PhoneNumber"]</arg>
+<arg>0612345678</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:32.201" level="INFO">Typing text '0612345678' into text field '//*[@id="BillingNewAddress_PhoneNumber"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:32.200" endtime="20220510 16:44:32.271"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>//*[@class="button-1 new-address-next-step-button"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20220510 16:44:32.272" level="INFO">Clicking element '//*[@class="button-1 new-address-next-step-button"]'.</msg>
+<status status="PASS" starttime="20220510 16:44:32.272" endtime="20220510 16:44:32.311"/>
+</kw>
+<status status="PASS" starttime="20220510 16:44:31.394" endtime="20220510 16:44:32.311"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20220510 16:44:32.312" endtime="20220510 16:44:34.454"/>
+</kw>
+<doc>Simpele bestelling zonder de extra opties</doc>
+<tag>Bestellen</tag>
+<tag>Regression</tag>
+<status status="PASS" starttime="20220510 16:44:22.002" endtime="20220510 16:44:34.456"/>
+</test>
+<status status="PASS" starttime="20220510 16:44:21.415" endtime="20220510 16:44:34.462"/>
+</suite>
+<status status="PASS" starttime="20220510 16:44:21.411" endtime="20220510 16:44:34.471"/>
+</suite>
+<status status="PASS" starttime="20220510 16:44:21.408" endtime="20220510 16:44:34.480"/>
+</suite>
+<status status="PASS" starttime="20220510 16:44:21.404" endtime="20220510 16:44:34.491"/>
+</suite>
+<status status="PASS" starttime="20220510 16:44:21.400" endtime="20220510 16:44:34.498"/>
+</suite>
+<status status="PASS" starttime="20220510 16:44:21.381" endtime="20220510 16:44:34.506"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Bestellen</stat>
+<stat pass="1" fail="0" skip="0">Regression</stat>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Nop.Commerce.Test.Robot">Nop.Commerce.Test.Robot</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="Webshopsz">Nop.Commerce.Test.Robot.Webshopsz</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="Testsuites">Nop.Commerce.Test.Robot.Webshopsz.Testsuites</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="Visit">Nop.Commerce.Test.Robot.Webshopsz.Testsuites.Visit</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1-s1" name="Account">Nop.Commerce.Test.Robot.Webshopsz.Testsuites.Visit.Account</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1-s1-s1" name="Bestellen">Nop.Commerce.Test.Robot.Webshopsz.Testsuites.Visit.Account.Bestellen</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

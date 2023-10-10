@@ -1,0 +1,726 @@
+{"level":30,"time":"2023-10-10T14:22:49.986Z","pid":70552,"hostname":"Bartosz","msg":"Listening on 61612"}
+{"level":30,"time":"2023-10-10T14:22:50.183Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:50.184Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:50.192Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:50.192Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:50.205Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2023-10-10T14:22:50.972Z","pid":70552,"hostname":"Bartosz","msg":"End of node method newBrowser"}
+{"level":30,"time":"2023-10-10T14:22:50.982Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method newContext"}
+{"level":30,"time":"2023-10-10T14:22:50.983Z","pid":70552,"hostname":"Bartosz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-10T14:22:50.983Z","pid":70552,"hostname":"Bartosz","msg":"Trace file: "}
+{"level":30,"time":"2023-10-10T14:22:50.999Z","pid":70552,"hostname":"Bartosz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-10T14:22:51.000Z","pid":70552,"hostname":"Bartosz","msg":"End of node method newContext"}
+{"level":30,"time":"2023-10-10T14:22:51.009Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method newPage"}
+{"level":30,"time":"2023-10-10T14:22:51.009Z","pid":70552,"hostname":"Bartosz","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2023-10-10T14:22:51.152Z","pid":70552,"hostname":"Bartosz","msg":"Video path: undefined"}
+{"level":30,"time":"2023-10-10T14:22:51.152Z","pid":70552,"hostname":"Bartosz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-10T14:22:51.899Z","pid":70552,"hostname":"Bartosz","msg":"End of node method newPage"}
+{"level":30,"time":"2023-10-10T14:22:51.916Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-10T14:22:51.917Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is enabled, find Locator with id=eu-cookie-ok in page."}
+{"level":30,"time":"2023-10-10T14:22:52.011Z","pid":70552,"hostname":"Bartosz","msg":"End of node method click"}
+{"level":30,"time":"2023-10-10T14:22:52.017Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method waitUntilNetworkIsIdle"}
+{"level":30,"time":"2023-10-10T14:22:52.599Z","pid":70552,"hostname":"Bartosz","msg":"End of node method waitUntilNetworkIsIdle"}
+{"level":30,"time":"2023-10-10T14:22:52.607Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2023-10-10T14:22:52.607Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is enabled, find Locator with css=h2 a >> text=Apple MacBook Pro 13-inch in page."}
+{"level":30,"time":"2023-10-10T14:22:52.659Z","pid":70552,"hostname":"Bartosz","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2023-10-10T14:22:52.666Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-10T14:22:52.666Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is enabled, find Locator with css=h2 a >> text=Apple MacBook Pro 13-inch in page."}
+{"level":30,"time":"2023-10-10T14:22:53.115Z","pid":70552,"hostname":"Bartosz","msg":"End of node method click"}
+{"level":30,"time":"2023-10-10T14:22:53.122Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method typeText"}
+{"level":30,"time":"2023-10-10T14:22:53.123Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"product_enteredQuantity_4\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.360Z","pid":70552,"hostname":"Bartosz","msg":"End of node method typeText"}
+{"level":30,"time":"2023-10-10T14:22:53.366Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method click"}
+{"level":30,"time":"2023-10-10T14:22:53.366Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is enabled, find Locator with css=.product-essential button >> text=Bestel nu! in page."}
+{"level":30,"time":"2023-10-10T14:22:53.438Z","pid":70552,"hostname":"Bartosz","msg":"End of node method click"}
+{"level":30,"time":"2023-10-10T14:22:53.446Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-10T14:22:53.446Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is enabled, find Locator with xpath=//*[@id=\"price-value-4\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.493Z","pid":70552,"hostname":"Bartosz","msg":"Retrieved text for element xpath=//*[@id=\"price-value-4\"] containing €1800,00"}
+{"level":30,"time":"2023-10-10T14:22:53.493Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-10T14:22:53.504Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getText"}
+{"level":30,"time":"2023-10-10T14:22:53.504Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is enabled, find Locator with css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.634Z","pid":70552,"hostname":"Bartosz","msg":"Retrieved text for element css=div[class=\"bar-notification success\"] containing Het product is toegevoegd aan uw winkelwagen"}
+{"level":30,"time":"2023-10-10T14:22:53.635Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getText"}
+{"level":30,"time":"2023-10-10T14:22:53.644Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.645Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.650Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.664Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.664Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.671Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.685Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.686Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.690Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.704Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.704Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.709Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.723Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.723Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.727Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.741Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.741Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.745Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.760Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.760Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.767Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.781Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.781Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.799Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.813Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.814Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.832Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.846Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.846Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.865Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.880Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.880Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.895Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.908Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.908Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.920Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.934Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.934Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.945Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.959Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.959Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.970Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.984Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:53.984Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:53.996Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.010Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.010Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.018Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.032Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.032Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.051Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.065Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.065Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.079Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.093Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.093Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.113Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.126Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.127Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.146Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.159Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.159Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.179Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.192Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.192Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.211Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.224Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.224Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.235Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.249Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.249Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.253Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.267Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.267Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.271Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.284Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.285Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.288Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.302Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.302Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.306Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.319Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.320Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.324Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.338Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.338Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.341Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.356Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.356Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.359Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.373Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.373Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.378Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.391Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.391Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.395Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.408Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.408Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.412Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.425Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.425Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.429Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.443Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.443Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.447Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.460Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.460Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.464Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.477Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.477Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.481Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.494Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.494Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.498Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.512Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.512Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.516Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.529Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.529Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.533Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.546Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.546Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.554Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.567Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.567Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.571Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.584Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.584Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.588Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.602Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.602Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.606Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.620Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.621Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.624Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.638Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.638Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.642Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.655Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.655Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.659Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.672Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.672Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.676Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.690Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.690Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.693Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.707Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.707Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.710Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.724Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.724Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.727Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.741Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.741Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.744Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.758Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.758Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.761Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.776Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.776Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.779Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.791Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.792Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.795Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.807Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.807Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.811Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.824Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.825Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.829Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.843Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.843Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.847Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.860Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.860Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.864Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.879Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.879Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.883Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.897Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.897Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.901Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.914Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.914Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.918Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.931Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.931Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.934Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.947Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.947Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.951Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.966Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.966Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.970Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.985Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:54.985Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:54.990Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.004Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.004Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.008Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.023Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.023Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.028Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.041Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.042Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.046Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.060Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.065Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.080Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.085Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.100Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.106Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.060Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.080Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.100Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.120Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.120Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.125Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.139Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.139Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.144Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.158Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.158Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.164Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.178Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.178Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.182Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.196Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.196Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.200Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.213Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.213Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.217Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.230Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.230Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.234Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.247Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.247Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.251Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.265Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.265Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.269Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.283Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.283Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.288Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.302Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.302Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.306Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.320Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.320Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.324Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.339Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.339Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.343Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.357Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.357Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.361Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.375Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.375Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.379Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.393Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.393Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.397Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.411Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.411Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.415Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.429Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.429Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.433Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.447Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.447Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.451Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.465Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.465Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.469Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.483Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.483Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.487Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.501Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.502Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.506Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.520Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.520Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.524Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.538Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.538Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.542Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.556Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.556Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.560Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.573Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.573Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.577Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.591Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.591Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.595Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.608Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.608Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.613Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.627Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.627Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.631Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.645Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.645Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.649Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.663Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.663Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.667Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.681Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.681Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.685Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.699Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.699Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.703Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.717Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.717Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.720Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.733Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.733Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.736Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.749Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.749Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.752Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.766Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.766Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.769Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.782Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.782Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.785Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.798Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.799Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.802Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.816Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.816Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.821Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.835Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.835Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.840Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.855Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.855Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.859Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.873Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.874Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.878Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.892Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.892Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.896Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.910Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.910Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.915Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.929Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.929Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.935Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.949Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.949Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.953Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.968Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.968Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.972Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.986Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:55.986Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:55.990Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.003Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.004Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.008Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.023Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.023Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.026Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.040Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.040Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.043Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.057Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.057Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.060Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.073Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.073Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.077Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.091Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.091Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.096Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.109Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.109Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.115Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.129Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.129Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.134Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.148Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.148Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.152Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.166Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.166Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.170Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.184Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.184Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.189Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.204Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.204Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.209Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.222Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.223Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.227Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.240Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.240Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.244Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.257Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.257Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.261Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.273Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.274Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.277Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.290Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.290Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.294Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.308Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.308Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.312Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.327Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.327Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.331Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.344Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.345Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.349Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.362Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.362Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.366Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.380Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.380Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.385Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.398Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.398Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.401Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.415Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.415Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.419Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.433Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.433Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.437Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.450Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.450Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.454Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.467Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.468Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.472Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.486Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.486Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.490Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.504Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.504Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.509Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.523Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.523Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.527Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.541Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.541Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.545Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.558Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.559Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.562Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.575Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.576Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.580Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.594Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.594Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.598Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.612Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.612Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.616Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.630Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.630Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.634Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.648Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.648Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.652Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.666Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.666Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.670Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.684Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.684Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.689Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.702Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.702Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.707Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.721Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.721Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.725Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.739Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.739Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.743Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.756Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.757Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.760Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.774Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.774Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.778Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.792Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.792Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.796Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.810Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.810Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.814Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.828Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.828Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.832Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.845Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.846Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.849Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.863Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.863Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.867Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.881Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.881Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.885Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.898Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.899Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.902Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.917Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.917Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.921Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.935Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.935Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.940Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.954Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.954Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.958Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.972Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.972Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.975Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.989Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:56.989Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:56.993Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.007Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.007Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.011Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.025Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.025Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.029Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.043Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.043Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.047Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.061Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.061Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.065Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.079Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.079Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.083Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.097Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.097Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.101Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.115Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.115Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.119Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.132Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.132Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.135Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.149Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.149Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.152Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.166Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.166Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.170Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.183Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.183Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.188Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.202Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.202Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.207Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.220Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.220Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.224Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.238Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.238Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.242Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.255Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.255Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.259Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.273Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.274Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.278Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.291Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.291Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.294Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.308Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.308Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.312Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.326Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.326Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.331Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.345Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.345Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.348Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.362Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.362Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.365Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.378Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.379Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.382Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.396Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.396Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.400Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.414Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.414Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.417Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.430Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.430Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.434Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.447Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.447Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.451Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.464Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.465Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.468Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.482Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.482Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.485Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.498Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.498Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.503Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.516Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.517Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.521Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.534Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.535Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.538Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.552Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.552Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.556Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.570Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.570Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.575Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.589Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.589Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.593Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.607Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.607Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.611Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.625Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.625Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.629Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.643Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.643Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.646Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.660Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.660Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.664Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.678Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.679Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.683Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.697Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.697Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.700Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.714Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.714Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.718Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.732Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.732Z","pid":70552,"hostname":"Bartosz","msg":"Strict mode is disabled, return Locator: css=div[class=\"bar-notification success\"] in page."}
+{"level":30,"time":"2023-10-10T14:22:57.736Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getElementCount"}
+{"level":30,"time":"2023-10-10T14:22:57.746Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.750Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.752Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.755Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.758Z","pid":70552,"hostname":"Bartosz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-10T14:22:57.758Z","pid":70552,"hostname":"Bartosz","msg":"Changing current active page"}
+{"level":30,"time":"2023-10-10T14:22:57.758Z","pid":70552,"hostname":"Bartosz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-10T14:22:57.763Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.777Z","pid":70552,"hostname":"Bartosz","msg":"Changing current active page"}
+{"level":30,"time":"2023-10-10T14:22:57.777Z","pid":70552,"hostname":"Bartosz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-10T14:22:57.766Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.769Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-10T14:22:57.769Z","pid":70552,"hostname":"Bartosz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-10T14:22:57.773Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method switchBrowser"}
+{"level":30,"time":"2023-10-10T14:22:57.774Z","pid":70552,"hostname":"Bartosz","msg":"End of node method switchBrowser"}
+{"level":30,"time":"2023-10-10T14:22:57.782Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.784Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.787Z","pid":70552,"hostname":"Bartosz","msg":"Changed active context"}
+{"level":30,"time":"2023-10-10T14:22:57.787Z","pid":70552,"hostname":"Bartosz","msg":"Changing current active page"}
+{"level":30,"time":"2023-10-10T14:22:57.787Z","pid":70552,"hostname":"Bartosz","msg":"Changed active page"}
+{"level":30,"time":"2023-10-10T14:22:57.790Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method closeContext"}
+{"level":30,"time":"2023-10-10T14:22:57.799Z","pid":70552,"hostname":"Bartosz","msg":"Removed page=f652354d-f68e-45b0-a13d-68fd7fce2797 from context=8766a768-c02b-4604-ab88-c1296ac000f4 page stack"}
+{"level":30,"time":"2023-10-10T14:22:57.802Z","pid":70552,"hostname":"Bartosz","msg":"End of node method closeContext"}
+{"level":30,"time":"2023-10-10T14:22:57.812Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:57.813Z","pid":70552,"hostname":"Bartosz","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-10-10T14:22:59.906Z","pid":70552,"hostname":"Bartosz","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-10-10T14:22:59.968Z","pid":70552,"hostname":"Bartosz","msg":"End of node method closeAllBrowsers"}
