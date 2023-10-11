@@ -27,12 +27,5 @@ Enter Guest Customer Information
 
     CLick   id=checkout-step-billing >> css=.new-address-next-step-button
 
-Enter Order Information
-
-
-Confirm Order
-
-
-
 *** Variables ***
 ${guestCheckoutButton}    button.checkout-as-guest-button

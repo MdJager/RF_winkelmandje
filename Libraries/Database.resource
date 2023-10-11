@@ -2,7 +2,6 @@
 Library         OperatingSystem
 Library         DateTime
 Library         DatabaseLibrary
-Library         KeePassLibrary
 Library         FakerLibrary
 Resource        ${EXECDIR}${/}Resources${/}Environments${/}Webshopsz_${ENV}.resource
 
